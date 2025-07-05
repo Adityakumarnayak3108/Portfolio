@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}Home - My Portfolio{% endblock %}
+{% block content %}
+    <section class="intro">
+        <h2>Welcome!</h2>
+        <p>Hello! I'm <strong>Aditya Kumar Nayak</strong>, Problem Solver & Good Learner</p>
+        <img src="{{ url_for('static', filename='aditya2.jpeg') }}" alt="Profile Picture" class="profile-pic">
+    </section>
+{% endblock %}

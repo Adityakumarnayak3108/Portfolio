@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}About - My Portfolio{% endblock %}
+{% block content %}
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a student at NIST University, B.Tech 2nd Year.</p>
+        <p>I am a passionate and curious student with a strong interest in the Data Science domain. I recently completed an internship where I gained hands-on experience with Python and Flask, and I’m continuously exploring how data can be used to solve real-world problems.
+
+My portfolio showcases the early steps of my journey into data science—from basic Python projects to small web applications built using Flask. I'm eager to keep learning and applying my skills in areas like data analysis, machine learning, and backend development.</p>
+        <p><a href="{{ url_for('static', filename='AdityaResume.pdf') }}" target="_blank" class="btn">Download Resume</a></p>
+    </section>
+{% endblock %}
